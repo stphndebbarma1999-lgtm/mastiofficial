@@ -10,7 +10,7 @@
 const SITE_CONFIG = {
   // WhatsApp number in international format WITHOUT +, spaces or dashes.
   // Example: "919876543210" for an Indian number +91 98765 43210
-  whatsappNumber: "",
+  whatsappNumber: "918787614703",
 
   // External / internal registration links.
   hostRegistrationUrl: "#",
