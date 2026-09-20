@@ -14,7 +14,7 @@ const SITE_CONFIG = {
 
   // External / internal registration links.
   hostRegistrationUrl: "#",
-  agencyRegistrationUrl: "#",
+  agencyRegistrationUrl: "https://masti.chat/web/#/recruit/sub_agency_reg/5922/MR",
   appUrl: "#",
 
   // Pre-filled WhatsApp message templates.

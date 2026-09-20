@@ -709,6 +709,17 @@ p { color: var(--text-secondary); font-weight: 400; }
   color: #7C4A03;
   margin: 20px 0;
 }
+.warning-block-red {
+  background: #FEF2F2;
+  border: 1px solid #FECACA;
+  border-left: 4px solid #DC2626;
+  border-radius: 12px;
+  padding: 16px 20px;
+  font-size: 14.5px;
+  color: #B91C1C;
+  margin: 0 0 20px;
+}
+.warning-block-red strong { display: block; color: #991B1B; }
 
 /* =====================
    Illustration (Where to find ID)
