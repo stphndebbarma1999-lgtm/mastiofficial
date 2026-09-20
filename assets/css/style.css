@@ -710,16 +710,15 @@ p { color: var(--text-secondary); font-weight: 400; }
   margin: 20px 0;
 }
 .warning-block-red {
-  background: #FEF2F2;
-  border: 1px solid #FECACA;
-  border-left: 4px solid #DC2626;
-  border-radius: 12px;
-  padding: 16px 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
   font-size: 14.5px;
-  color: #B91C1C;
+  color: #DC2626;
   margin: 0 0 20px;
 }
-.warning-block-red strong { display: block; color: #991B1B; }
+.warning-block-red svg { flex-shrink: 0; width: 20px; height: 20px; margin-top: 2px; }
+.warning-block-red strong { display: block; font-weight: 700; color: #DC2626; margin-bottom: 2px; }
 
 /* =====================
    Illustration (Where to find ID)
